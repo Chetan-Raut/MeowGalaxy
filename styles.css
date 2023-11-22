@@ -1,0 +1,26 @@
+    /* Add your custom styles here */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        nav {
+            background-color: #4c51bf; /* Deep Purple */
+        }
+
+        footer {
+            background-color: #2d3748; /* Dark Grayish Blue */
+            color: #cbd5e0;
+            padding: 2rem 0;
+        }
+
+        .cat-store-card {
+            border: 1px solid #1a202c;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .cat-store-card:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
